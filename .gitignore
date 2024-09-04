@@ -1,0 +1,6 @@
+# General
+*.bak 
+hardware/jlcpcb/gerber
+replicate_layout.log
+*.kicad_pro
+!main.kicad_pro
