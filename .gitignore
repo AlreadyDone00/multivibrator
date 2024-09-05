@@ -1,5 +1,4 @@
 # General
 *.kicad_pro
-*.
-hardware/multivibrator-backups
+/hardware/multivibrator-backups
 *.kicad_prl
