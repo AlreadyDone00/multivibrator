@@ -3,4 +3,8 @@
 hardware/jlcpcb/gerber
 replicate_layout.log
 *.kicad_pro
+*.kicad_pro
+fp-info-cache
+multivibrator-backups
+*.kicad_prl
 !main.kicad_pro
