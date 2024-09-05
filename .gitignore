@@ -1,21 +1,29 @@
-# General
-*.bck
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
 *.bak
-﻿.~*
-_autosave-*
-*/#auto_saved_files#
-*/*-backups/*
-
-# KiCad
-manufacturing/old
-fp-info-cache
-replicate_layout.log
-*.kicad_pro
-!main.kicad_pro
-*.kicad_sch-bak
+*.bck
 *.kicad_pcb-bak
-~*.lck
-*.rpt
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+_autosave-*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
 
-# Legacy
-hardware*/jlcpcb/gerber
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
