@@ -1,0 +1,6 @@
+"Reference","Value","Datasheet","Footprint","Qty","DNP","Voltage","chipdip","lcsc","coefficient"
+"C1,C2","47u","~","Capacitor_SMD:C_0805_2012Metric","2","","10V","9000326168","C6119904",""
+"R1,R2","68k","~","Resistor_SMD:R_0805_2012Metric","2","","","9000189877","C17801","5%"
+"Q1,Q2","BC817","https://www.onsemi.com/pub/Collateral/BC818-D.pdf","Package_TO_SOT_SMD:SOT-23","2","","","28806907"," C5249694",""
+"D1,D2","IR204A","http://www.everlight.com/file/ProductFile/IR204-A.pdf","LED_THT:LED_D3.0mm_IRBlack","2","","","8023113118","C264278",""
+"J1","KLS2-EDR-5.08-02P-4","https://static.chipdip.ru/lib/507/DOC001507222.pdf","MAS_Package_nostd:KLS2-EDR-5.08-02P-4","1","","","9000603329","",""

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -242,7 +242,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_not_connected|1460500|800100|f3088475-ef1f-4796-afe8-a33d2a617ac4|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_connected|1460500|889000|6e445c04-8531-4693-8a4f-9e8bf0d0075e|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_connected|1701800|800100|61e44eb7-3f9f-452d-9842-687b8da0f9a9|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_connected|1701800|889000|94289a97-80d8-4d7a-b0ca-1216507d8b10|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_driven|1460500|800100|f3088475-ef1f-4796-afe8-a33d2a617ac4|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_driven|1460500|889000|6e445c04-8531-4693-8a4f-9e8bf0d0075e|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_driven|1701800|800100|61e44eb7-3f9f-452d-9842-687b8da0f9a9|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|",
+      "pin_not_driven|1701800|889000|94289a97-80d8-4d7a-b0ca-1216507d8b10|00000000-0000-0000-0000-000000000000|/1a97188f-c325-4cd3-a978-b976f5ea7e32|/1a97188f-c325-4cd3-a978-b976f5ea7e32|"
+    ],
     "meta": {
       "version": 0
     },
@@ -492,10 +501,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "../manufacturing/gerber/",
+      "pos_files": "../manufacturing/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../manufacturing/multivibrator.step",
       "svg": "",
       "vrml": ""
     },
@@ -503,7 +512,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "..\\manufacturing\\multivibrator_v1.0_bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -576,7 +585,7 @@
           "group_by": true,
           "label": "promelec",
           "name": "promelec",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -594,7 +603,7 @@
           "group_by": true,
           "label": "elitan",
           "name": "elitan",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
@@ -606,14 +615,14 @@
           "group_by": true,
           "label": "pn",
           "name": "pn",
-          "show": true
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
