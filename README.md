@@ -1,5 +1,5 @@
 # *Шифр проекта*
-мультиплексор
+мультивибратор
 ## Features: разъем J1 - питание +5V
 ## 3d model:
 ![multivibrator 3D](/images/multivibrator.png)
